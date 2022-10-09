@@ -3,6 +3,9 @@ select*, st_point(lon,lat, 4326) geom, st_point (lon, lat, 4326):: geography geo
 from restaurants_lab2;
 SELECT * FROM public.restaurants_lab2
 
+![Lab3_1](Lab3_1.png)
+
+
 create table rest_lab6 (addess varchar,
 					  city text,
 					  country TEXT,
